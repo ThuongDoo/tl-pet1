@@ -1,0 +1,122 @@
+{
+  "brand": "Petcare",
+  "hotline": "0918 10 11 10",
+  "email": "info@petcare.vn",
+  "website": "https://petcare.vn",
+  "zalo": "https://zalo.me/0918101110",
+  "messenger": "https://m.me/PetcareVietnam",
+  "socials": {
+    "facebook": "https://www.facebook.com/PetcareVietnam",
+    "youtube": "",
+    "instagram": "",
+    "tiktok": ""
+  },
+  "hours": {
+    "weekday": "Thứ hai - thứ bảy: 08:00 - 12:00 | 14:00 - 19:00",
+    "weekend": "08:00 - 12:00"
+  },
+  "emergencyNote": "Khi thú cưng có các biểu hiện thần kinh (sốc, co giật, hôn mê), khó thở, gãy xương, tiêu chảy, nôn mửa nặng, bụng phình to, tắc đường tiểu, nuốt phải dị vật hoặc chất độc, đẻ khó hay bị thương nặng.",
+  "copyright": "Copyright © 2020–2026 Petcare.vn",
+  "hero": {
+    "badge": "🐾 Hệ thống bệnh viện thú y hàng đầu",
+    "titleLine1": "Chăm sóc thú cưng",
+    "titlePrefix": "như",
+    "titleHighlight": "bạn thân",
+    "desc": "Nơi tin cậy để thăm khám, chẩn đoán, điều trị nội trú và ngoại trú cho thú cưng. Đội ngũ bác sĩ giàu kinh nghiệm cùng trang thiết bị hiện đại.",
+    "ctaPrimary": "Đặt lịch khám ngay",
+    "ctaSecondary": "Xem dịch vụ",
+    "image": "https://loremflickr.com/900/700/veterinarian,dog?lock=1",
+    "cardTitle": "Membership Petcare",
+    "cardDesc": "Tích điểm mỗi lượt khám, ưu đãi quà sinh nhật & coupon giảm giá.",
+    "stats": [
+      { "value": "3+", "label": "Cơ sở tại TP.HCM" },
+      { "value": "24/7", "label": "Cấp cứu khẩn cấp" },
+      { "value": "15+", "label": "Năm kinh nghiệm" }
+    ]
+  },
+  "services": {
+    "title": "Bệnh Viện Thú Y PETCARE",
+    "desc": "Nơi tin cậy để thăm khám, chẩn đoán, điều trị nội trú và ngoại trú cho thú cưng",
+    "main": [
+      {
+        "title": "Khám và điều trị",
+        "desc": "Chẩn đoán đúng bệnh và đưa ra phương pháp điều trị hiệu quả giúp thú cưng mau bình phục.",
+        "image": "https://loremflickr.com/500/380/veterinarian,cat?lock=11"
+      },
+      {
+        "title": "Xét nghiệm – Chẩn đoán hình ảnh",
+        "desc": "Chụp X-Quang, siêu âm, làm các xét nghiệm (vi rút, sinh hóa máu, kháng sinh đồ,...).",
+        "image": "https://loremflickr.com/500/380/veterinarian,xray?lock=12"
+      },
+      {
+        "title": "Phẫu thuật",
+        "desc": "Phẫu thuật điều trị: nối xương, sỏi niệu... Phẫu thuật theo yêu cầu: triệt sản, cắt đuôi, cắt tai.",
+        "image": "https://loremflickr.com/500/380/veterinarian,surgery?lock=13"
+      }
+    ]
+  },
+  "products": {
+    "title": "Sản phẩm dành cho thú cưng",
+    "desc": "Cung cấp đầy đủ các loại sản phẩm hàng ngày dành cho thú cưng",
+    "items": [
+      { "name": "Royal Canin Mini Adult 2kg", "brand": "Royal Canin", "price": "385.000đ", "image": "https://loremflickr.com/400/400/dog,kibble?lock=21" },
+      { "name": "Monge Pate cho mèo 400g", "brand": "Monge", "price": "55.000đ", "image": "https://loremflickr.com/400/400/cat,food?lock=22" },
+      { "name": "Whiskas vị cá biển 1.2kg", "brand": "Whiskas", "price": "95.000đ", "image": "https://loremflickr.com/400/400/catfood?lock=23" },
+      { "name": "Cát vệ sinh Cateye 10L", "brand": "Cateye", "price": "120.000đ", "image": "https://loremflickr.com/400/400/cat,litter?lock=24" },
+      { "name": "Sữa tắm dưỡng lông thú cưng", "brand": "Petcare Care", "price": "145.000đ", "image": "https://loremflickr.com/400/400/dog,grooming?lock=25" },
+      { "name": "Vòng cổ chống liếm cho chó mèo", "brand": "Petcare Care", "price": "68.000đ", "image": "https://loremflickr.com/400/400/dog,collar?lock=26" }
+    ]
+  },
+  "reviews": {
+    "title": "Khách hàng nói gì về chúng tôi",
+    "desc": "Cảm nhận thực tế từ các gia đình thú cưng đã tin tưởng Petcare",
+    "items": [
+      {
+        "name": "Chị Minh Anh",
+        "role": "Chủ nuôi mèo Anh lông ngắn",
+        "rating": 5,
+        "avatar": "https://loremflickr.com/100/100/woman,portrait?lock=41",
+        "comment": "Bác sĩ tận tâm, giải thích rõ ràng tình trạng của bé mèo nhà mình. Phòng khám sạch sẽ, giá cả hợp lý."
+      },
+      {
+        "name": "Anh Quốc Bảo",
+        "role": "Chủ nuôi chó Golden Retriever",
+        "rating": 5,
+        "avatar": "https://loremflickr.com/100/100/man,portrait?lock=42",
+        "comment": "Dịch vụ cấp cứu 24/7 thực sự cứu bé cún nhà mình một bàn thua trông thấy. Cảm ơn đội ngũ Petcare rất nhiều!"
+      },
+      {
+        "name": "Chị Thu Hà",
+        "role": "Chủ nuôi 2 bé mèo",
+        "rating": 4,
+        "avatar": "https://loremflickr.com/100/100/woman,smile?lock=43",
+        "comment": "Đặt lịch nhanh chóng qua Zalo, nhân viên tư vấn nhiệt tình. Sẽ tiếp tục ủng hộ Petcare lâu dài."
+      }
+    ]
+  },
+  "branches": [
+    { "name": "Petcare 1", "address": "124A Xuân Thủy, Phường An Khánh, Thành phố Hồ Chí Minh", "phone": "0918 271 246" },
+    { "name": "Petcare 2", "address": "S8-1 đường số 6, Phường Tân Hưng, Thành phố Hồ Chí Minh", "phone": "0917 941 246" },
+    { "name": "Petcare 4", "address": "25 Nguyễn Thái Học, Phường Tam Thắng, Thành phố Hồ Chí Minh", "phone": "0914 764 246" }
+  ],
+  "emergency": [
+    { "label": "Petcare 1", "phone": "0918 271 246" },
+    { "label": "Petcare 4", "phone": "0914 764 246" }
+  ],
+  "popup": {
+    "delaySeconds": 10,
+    "image": "https://loremflickr.com/800/450/dog,cat?lock=51",
+    "badge": "🐾 Đừng để thú cưng chờ lâu",
+    "title": "Petcare luôn sẵn sàng đồng hành cùng thú cưng của bạn",
+    "address": "124A Xuân Thủy, Phường An Khánh, Thành phố Hồ Chí Minh",
+    "desc": "Đội ngũ bác sĩ thú y luôn sẵn sàng hỗ trợ 24/7. Liên hệ ngay để được tư vấn nhanh nhất.",
+    "cta": "Điều trị ngay"
+  },
+  "visible": {
+    "services": true,
+    "products": true,
+    "reviews": true,
+    "popup": true,
+    "floatingContact": true
+  }
+}
