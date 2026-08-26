@@ -3,16 +3,14 @@
 // office and can be partially filled, so this fills in the gaps with safe
 // empty defaults before the config reaches the components.
 const EMPTY = {
-  brand: '',
-  hotline: '',
-  email: '',
-  website: '',
-  zalo: '',
-  messenger: '',
-  socials: {},
-  hours: {},
-  emergencyNote: '',
-  copyright: '',
+  brand: {
+    name: '',
+    hotline: '',
+    email: '',
+    website: '',
+    zalo: '',
+    messenger: '',
+  },
   hero: {
     badge: '',
     titleLine1: '',
@@ -27,10 +25,18 @@ const EMPTY = {
     stats: [],
   },
   services: { title: '', desc: '', main: [] },
-  products: { title: '', desc: '', items: [] },
+  footer: {
+    branches: [],
+    facebook: '',
+    youtube: '',
+    instagram: '',
+    tiktok: '',
+    'hours-weekday': '',
+    'hours-weekend': '',
+    phone: '',
+    copyright: '',
+  },
   reviews: { title: '', desc: '', items: [] },
-  branches: [],
-  emergency: [],
   popup: {
     delaySeconds: 0,
     image: '',
@@ -40,7 +46,9 @@ const EMPTY = {
     desc: '',
     cta: '',
   },
+  theme: { primary: '', primaryDark: '', secondary: '', ink: '' },
   visible: {},
+  products: { title: '', desc: '', items: [] },
 }
 
 export function normalizeConfig(config) {
@@ -48,15 +56,18 @@ export function normalizeConfig(config) {
   return {
     ...EMPTY,
     ...c,
-    socials: { ...EMPTY.socials, ...c.socials },
-    hours: { ...EMPTY.hours, ...c.hours },
+    brand: { ...EMPTY.brand, ...c.brand },
     hero: { ...EMPTY.hero, ...c.hero, stats: c.hero?.stats ?? [] },
     services: { ...EMPTY.services, ...c.services, main: c.services?.main ?? [] },
-    products: { ...EMPTY.products, ...c.products, items: c.products?.items ?? [] },
+    footer: {
+      ...EMPTY.footer,
+      ...c.footer,
+      branches: c.footer?.branches ?? [],
+    },
     reviews: { ...EMPTY.reviews, ...c.reviews, items: c.reviews?.items ?? [] },
-    branches: c.branches ?? [],
-    emergency: c.emergency ?? [],
     popup: { ...EMPTY.popup, ...c.popup },
+    theme: { ...EMPTY.theme, ...c.theme },
     visible: { ...EMPTY.visible, ...c.visible },
+    products: { ...EMPTY.products, ...c.products, items: c.products?.items ?? [] },
   }
 }

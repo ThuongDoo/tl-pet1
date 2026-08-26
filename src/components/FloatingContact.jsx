@@ -1,7 +1,7 @@
 import { getContactChannels } from '../data/contactChannels'
 
 export default function FloatingContact({ data }) {
-  const address = data.popup.address || data.branches[0]?.address || ''
+  const address = data.popup.address || data.footer.branches[0]?.address || ''
   const channels = [
     ...getContactChannels(data),
     {

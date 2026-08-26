@@ -20,7 +20,7 @@ function PawLogo() {
 
 export default function Header({ data }) {
   const [open, setOpen] = useState(false)
-  const hotlineHref = `tel:${data.hotline.replace(/\s/g, '')}`
+  const hotlineHref = `tel:${data.brand.hotline.replace(/\s/g, '')}`
 
   return (
     <header className="sticky top-0 z-50 bg-white/95 backdrop-blur shadow-sm">
@@ -29,11 +29,11 @@ export default function Header({ data }) {
           <div className="flex items-center gap-4">
             <a href={hotlineHref} className="flex items-center gap-1.5 hover:text-primary">
               <svg className="h-3.5 w-3.5" viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.5.6.6 0 1.1.5 1.1 1.1V20c0 .6-.5 1.1-1.1 1.1C10.9 21.1 2.9 13.1 2.9 3.2 2.9 2.6 3.4 2.1 4 2.1h3.5c.6 0 1.1.5 1.1 1.1 0 1.2.2 2.4.6 3.5.1.4 0 .8-.3 1.1L6.6 10.8z"/></svg>
-              Hotline 24/7: {data.hotline}
+              Hotline 24/7: {data.brand.hotline}
             </a>
-            <a href={`mailto:${data.email}`} className="hidden items-center gap-1.5 hover:text-primary sm:flex">
+            <a href={`mailto:${data.brand.email}`} className="hidden items-center gap-1.5 hover:text-primary sm:flex">
               <svg className="h-3.5 w-3.5" viewBox="0 0 24 24" fill="currentColor"><path d="M2 6a2 2 0 012-2h16a2 2 0 012 2v12a2 2 0 01-2 2H4a2 2 0 01-2-2V6zm2 0l8 6 8-6"/></svg>
-              {data.email}
+              {data.brand.email}
             </a>
           </div>
           <div className="flex items-center gap-3">
@@ -49,7 +49,7 @@ export default function Header({ data }) {
         <a href="#home" className="flex items-center gap-2">
           <PawLogo />
           <span className="text-2xl font-extrabold tracking-tight text-ink">
-            {data.brand}
+            {data.brand.name}
           </span>
         </a>
 

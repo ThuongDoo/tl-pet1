@@ -23,14 +23,14 @@ function Phone() {
 
 export default function Footer({ data }) {
   const socialEntries = Object.entries(SOCIAL_ICONS)
-    .map(([key, meta]) => ({ ...meta, href: data.socials[key] }))
+    .map(([key, meta]) => ({ ...meta, href: data.footer[key] }))
     .filter((s) => s.href)
 
   return (
     <footer id="footer" className="scroll-mt-24 bg-ink text-slate-300">
       <div className="mx-auto max-w-7xl px-4 py-16">
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
-          {data.branches.map((loc) => (
+          {data.footer.branches.map((loc) => (
             <div key={loc.name}>
               <h4 className="text-base font-bold text-white">{loc.name}</h4>
               <a href="#map" className="mt-3 flex items-start gap-2 text-sm hover:text-primary">
@@ -46,15 +46,15 @@ export default function Footer({ data }) {
 
           <div>
             <h4 className="text-base font-bold text-white">Liên hệ nhanh</h4>
-            <a href={`tel:${data.hotline.replace(/\s/g, '')}`} className="mt-3 flex items-center gap-2 text-sm hover:text-primary">
+            <a href={`tel:${data.brand.hotline.replace(/\s/g, '')}`} className="mt-3 flex items-center gap-2 text-sm hover:text-primary">
               <Phone />
-              Hotline: {data.hotline}
+              Hotline: {data.brand.hotline}
             </a>
             <p className="mt-2 text-sm">
-              Email: <a href={`mailto:${data.email}`} className="hover:text-primary">{data.email}</a>
+              Email: <a href={`mailto:${data.brand.email}`} className="hover:text-primary">{data.brand.email}</a>
             </p>
             <p className="mt-1 text-sm">
-              Website: <a href={data.website} className="hover:text-primary">{data.website.replace(/^https?:\/\//, 'www.')}</a>
+              Website: <a href={data.brand.website} className="hover:text-primary">{data.brand.website.replace(/^https?:\/\//, 'www.')}</a>
             </p>
             <div className="mt-4 flex gap-3">
               {socialEntries.map((s) => (
@@ -74,26 +74,23 @@ export default function Footer({ data }) {
         <div className="mt-12 grid gap-10 border-t border-white/10 pt-10 sm:grid-cols-2">
           <div>
             <h4 className="text-base font-bold text-white">Giờ làm việc</h4>
-            <p className="mt-3 text-sm leading-relaxed">{data.hours.weekday}</p>
+            <p className="mt-3 text-sm leading-relaxed">{data.footer['hours-weekday']}</p>
             <p className="mt-2 text-sm leading-relaxed">
-              Chủ nhật &amp; Ngày lễ<br />{data.hours.weekend}
+              Chủ nhật &amp; Ngày lễ<br />{data.footer['hours-weekend']}
             </p>
           </div>
           <div>
             <h4 className="text-base font-bold text-white">Cấp cứu 24/7</h4>
-            {data.emergency.map((e) => (
-              <a key={e.label} href={`tel:${e.phone.replace(/\s/g, '')}`} className="mt-3 flex items-center gap-2 text-sm hover:text-primary">
-                <Phone /> {e.label}: {e.phone}
-              </a>
-            ))}
-            <p className="mt-3 text-xs leading-relaxed text-slate-400">{data.emergencyNote}</p>
+            <a href={`tel:${data.footer.phone.replace(/\s/g, '')}`} className="mt-3 flex items-center gap-2 text-sm hover:text-primary">
+              <Phone /> Hotline: {data.footer.phone}
+            </a>
           </div>
         </div>
       </div>
 
       <div className="border-t border-white/10">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-2 px-4 py-5 text-xs text-slate-400 sm:flex-row">
-          <p>{data.copyright}</p>
+          <p>{data.footer.copyright}</p>
           <a href="#terms" className="hover:text-primary">Terms &amp; Conditions</a>
         </div>
       </div>

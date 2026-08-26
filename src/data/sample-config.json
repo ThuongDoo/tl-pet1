@@ -1,22 +1,12 @@
 {
-  "brand": "Petcare",
-  "hotline": "0918 10 11 10",
-  "email": "info@petcare.vn",
-  "website": "https://petcare.vn",
-  "zalo": "https://zalo.me/0918101110",
-  "messenger": "https://m.me/PetcareVietnam",
-  "socials": {
-    "facebook": "https://www.facebook.com/PetcareVietnam",
-    "youtube": "",
-    "instagram": "",
-    "tiktok": ""
+  "brand": {
+    "name": "Petcare",
+    "hotline": "0918 10 11 10",
+    "email": "info@petcare.vn",
+    "website": "https://petcare.vn",
+    "zalo": "https://zalo.me/0918101110",
+    "messenger": "https://m.me/PetcareVietnam"
   },
-  "hours": {
-    "weekday": "Thứ hai - thứ bảy: 08:00 - 12:00 | 14:00 - 19:00",
-    "weekend": "08:00 - 12:00"
-  },
-  "emergencyNote": "Khi thú cưng có các biểu hiện thần kinh (sốc, co giật, hôn mê), khó thở, gãy xương, tiêu chảy, nôn mửa nặng, bụng phình to, tắc đường tiểu, nuốt phải dị vật hoặc chất độc, đẻ khó hay bị thương nặng.",
-  "copyright": "Copyright © 2020–2026 Petcare.vn",
   "hero": {
     "badge": "🐾 Hệ thống bệnh viện thú y hàng đầu",
     "titleLine1": "Chăm sóc thú cưng",
@@ -25,13 +15,22 @@
     "desc": "Nơi tin cậy để thăm khám, chẩn đoán, điều trị nội trú và ngoại trú cho thú cưng. Đội ngũ bác sĩ giàu kinh nghiệm cùng trang thiết bị hiện đại.",
     "ctaPrimary": "Đặt lịch khám ngay",
     "ctaSecondary": "Xem dịch vụ",
-    "image": "https://loremflickr.com/900/700/veterinarian,dog?lock=1",
+    "image": "https://firebasestorage.googleapis.com/v0/b/webtemplate-2a3e3.firebasestorage.app/o/websites%2Fpet1-0003%2F1787757067398-p%C3%A9t.jpg?alt=media&token=0b991772-6287-4678-9656-5d1d149093ec",
     "cardTitle": "Membership Petcare",
     "cardDesc": "Tích điểm mỗi lượt khám, ưu đãi quà sinh nhật & coupon giảm giá.",
     "stats": [
-      { "value": "3+", "label": "Cơ sở tại TP.HCM" },
-      { "value": "24/7", "label": "Cấp cứu khẩn cấp" },
-      { "value": "15+", "label": "Năm kinh nghiệm" }
+      {
+        "value": "3+",
+        "label": "Cơ sở tại TP.HCM"
+      },
+      {
+        "value": "24/7",
+        "label": "Cấp cứu khẩn cấp"
+      },
+      {
+        "value": "15+",
+        "label": "Năm kinh nghiệm"
+      }
     ]
   },
   "services": {
@@ -55,17 +54,34 @@
       }
     ]
   },
-  "products": {
-    "title": "Sản phẩm dành cho thú cưng",
-    "desc": "Cung cấp đầy đủ các loại sản phẩm hàng ngày dành cho thú cưng",
-    "items": [
-      { "name": "Royal Canin Mini Adult 2kg", "brand": "Royal Canin", "price": "385.000đ", "image": "https://loremflickr.com/400/400/dog,kibble?lock=21" },
-      { "name": "Monge Pate cho mèo 400g", "brand": "Monge", "price": "55.000đ", "image": "https://loremflickr.com/400/400/cat,food?lock=22" },
-      { "name": "Whiskas vị cá biển 1.2kg", "brand": "Whiskas", "price": "95.000đ", "image": "https://loremflickr.com/400/400/catfood?lock=23" },
-      { "name": "Cát vệ sinh Cateye 10L", "brand": "Cateye", "price": "120.000đ", "image": "https://loremflickr.com/400/400/cat,litter?lock=24" },
-      { "name": "Sữa tắm dưỡng lông thú cưng", "brand": "Petcare Care", "price": "145.000đ", "image": "https://loremflickr.com/400/400/dog,grooming?lock=25" },
-      { "name": "Vòng cổ chống liếm cho chó mèo", "brand": "Petcare Care", "price": "68.000đ", "image": "https://loremflickr.com/400/400/dog,collar?lock=26" }
-    ]
+  "footer": {
+    "branches": [
+      {
+        "name": "Petcare 1",
+        "address": "124A Xuân Thủy, Phường An Khánh, Thành phố Hồ Chí Minh",
+        "phone": "0918 271 246"
+      },
+      {
+        "name": "Petcare 2",
+        "address": "S8-1 đường số 6, Phường Tân Hưng, Thành phố Hồ Chí Minh",
+        "phone": "0917 941 246"
+      },
+      {
+        "name": "Petcare 4",
+        "address": "25 Nguyễn Thái Học, Phường Tam Thắng, Thành phố Hồ Chí Minh",
+        "phone": "0914 764 246"
+      }
+    ],
+    "facebook": "https://www.facebook.com/PetcareVietnam",
+    "youtube": "",
+    "instagram": "",
+    "tiktok": "",
+
+    "hours-weekday": "Thứ hai - thứ bảy: 08:00 - 12:00 | 14:00 - 19:00",
+    "hours-weekend": "08:00 - 12:00",
+    "phone": "0914 764 246",
+
+    "copyright": "Copyright © 2020–2026 Petcare.vn"
   },
   "reviews": {
     "title": "Khách hàng nói gì về chúng tôi",
@@ -94,23 +110,20 @@
       }
     ]
   },
-  "branches": [
-    { "name": "Petcare 1", "address": "124A Xuân Thủy, Phường An Khánh, Thành phố Hồ Chí Minh", "phone": "0918 271 246" },
-    { "name": "Petcare 2", "address": "S8-1 đường số 6, Phường Tân Hưng, Thành phố Hồ Chí Minh", "phone": "0917 941 246" },
-    { "name": "Petcare 4", "address": "25 Nguyễn Thái Học, Phường Tam Thắng, Thành phố Hồ Chí Minh", "phone": "0914 764 246" }
-  ],
-  "emergency": [
-    { "label": "Petcare 1", "phone": "0918 271 246" },
-    { "label": "Petcare 4", "phone": "0914 764 246" }
-  ],
   "popup": {
     "delaySeconds": 10,
-    "image": "https://loremflickr.com/800/450/dog,cat?lock=51",
+    "image": "https://firebasestorage.googleapis.com/v0/b/webtemplate-2a3e3.firebasestorage.app/o/websites%2Fpet1-0003%2F1787758253086-av.webp?alt=media&token=f57a3adf-83d4-46c6-b073-cba5505e5020",
     "badge": "🐾 Đừng để thú cưng chờ lâu",
     "title": "Petcare luôn sẵn sàng đồng hành cùng thú cưng của bạn",
     "address": "124A Xuân Thủy, Phường An Khánh, Thành phố Hồ Chí Minh",
     "desc": "Đội ngũ bác sĩ thú y luôn sẵn sàng hỗ trợ 24/7. Liên hệ ngay để được tư vấn nhanh nhất.",
     "cta": "Điều trị ngay"
+  },
+  "theme": {
+    "primary": "#03c69f",
+    "primaryDark": "#049a7c",
+    "secondary": "#1e6fcc",
+    "ink": "#0b2b3c"
   },
   "visible": {
     "services": true,
@@ -118,5 +131,47 @@
     "reviews": true,
     "popup": true,
     "floatingContact": true
+  },
+  "products": {
+    "title": "Sản phẩm dành cho thú cưng",
+    "desc": "Cung cấp đầy đủ các loại sản phẩm hàng ngày dành cho thú cưng",
+    "items": [
+      {
+        "name": "Royal Canin Mini Adult 2kg",
+        "brand": "Royal Canin",
+        "price": "385.000đ",
+        "image": "https://firebasestorage.googleapis.com/v0/b/webtemplate-2a3e3.firebasestorage.app/o/websites%2Fpet1-0003%2F1787757120125-images%20(3).jpg?alt=media&token=7e9bfcbe-2c78-48e9-9dac-bec6d5ff5d19"
+      },
+      {
+        "name": "Monge Pate cho mèo 400g",
+        "brand": "Monge",
+        "price": "55.000đ",
+        "image": "https://firebasestorage.googleapis.com/v0/b/webtemplate-2a3e3.firebasestorage.app/o/websites%2Fpet1-0003%2F1787757125627-images%20(1).jpg?alt=media&token=27b811f4-48c3-4c1e-b168-dc423a678066"
+      },
+      {
+        "name": "Whiskas vị cá biển 1.2kg",
+        "brand": "Whiskas",
+        "price": "95.000đ",
+        "image": "https://firebasestorage.googleapis.com/v0/b/webtemplate-2a3e3.firebasestorage.app/o/websites%2Fpet1-0003%2F1787757133000-pate-meo-lon-whiskas-adult-80g-vi-ga-1733797778223.webp?alt=media&token=985945d2-c915-4bb0-bbaf-37abd530ef21"
+      },
+      {
+        "name": "Cát vệ sinh Cateye 10L",
+        "brand": "Cateye",
+        "price": "120.000đ",
+        "image": "https://firebasestorage.googleapis.com/v0/b/webtemplate-2a3e3.firebasestorage.app/o/websites%2Fpet1-0003%2F1787757138144-23_23f88ed362114e6ca63460adc17b430d.webp?alt=media&token=07b7829f-e24e-4912-a7aa-6cf9e4ff4e1b"
+      },
+      {
+        "name": "Sữa tắm dưỡng lông thú cưng",
+        "brand": "Petcare Care",
+        "price": "145.000đ",
+        "image": "https://firebasestorage.googleapis.com/v0/b/webtemplate-2a3e3.firebasestorage.app/o/websites%2Fpet1-0003%2F1787757145563-sua-tam-thu-cung-four-in-one-500ml-danh-cho-moi-dong-cho-85201-doggyman-00.jpg?alt=media&token=7e4aa254-b689-48fd-83ea-8d62334c9c16"
+      },
+      {
+        "name": "Vòng cổ chống liếm cho chó mèo",
+        "brand": "Petcare Care",
+        "price": "68.000đ",
+        "image": "https://firebasestorage.googleapis.com/v0/b/webtemplate-2a3e3.firebasestorage.app/o/websites%2Fpet1-0003%2F1787757158390-feee0496-meo-bi-gay-chan-2.jpg?alt=media&token=e2394cea-11da-43cb-9a36-0bcdedac9c56"
+      }
+    ]
   }
 }

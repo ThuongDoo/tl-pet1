@@ -38,7 +38,7 @@ export default function Hero({ data }) {
           <div className="aspect-4/3 overflow-hidden rounded-3xl shadow-2xl">
             <img
               src={data.hero.image}
-              alt={data.brand}
+              alt={data.brand.name}
               className="h-full w-full object-cover"
             />
           </div>

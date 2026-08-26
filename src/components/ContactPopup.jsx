@@ -12,7 +12,7 @@ function MapPin() {
 export default function ContactPopup({ data }) {
   const [visible, setVisible] = useState(false)
   const contactChannels = getContactChannels(data)
-  const ctaHref = `tel:${data.hotline.replace(/\s/g, '')}`
+  const ctaHref = `tel:${data.brand.hotline.replace(/\s/g, '')}`
 
   useEffect(() => {
     if (!data.visible.popup) return
@@ -45,7 +45,7 @@ export default function ContactPopup({ data }) {
         </button>
 
         <div className="relative h-56 sm:h-full">
-          <img src={data.popup.image} alt={data.brand} className="h-full w-full object-cover" />
+          <img src={data.popup.image} alt={data.brand.name} className="h-full w-full object-cover" />
         </div>
 
         <div className="flex flex-col justify-center p-6 sm:p-8">
